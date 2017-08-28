@@ -14,7 +14,7 @@
 		613B0F871F53F25A0032FA3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613B0F851F53F25A0032FA3F /* LaunchScreen.storyboard */; };
 		613B0F921F53F25A0032FA3F /* NotifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613B0F911F53F25A0032FA3F /* NotifierTests.swift */; };
 		613B0F9D1F53F25A0032FA3F /* NotifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613B0F9C1F53F25A0032FA3F /* NotifierUITests.swift */; };
-		613B0FAC1F53F2760032FA3F /* AENotifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613B0FAB1F53F2760032FA3F /* AENotifier.swift */; };
+		613B0FAF1F53F2F50032FA3F /* AENotifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613B0FAE1F53F2F50032FA3F /* AENotifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		613B0F981F53F25A0032FA3F /* NotifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		613B0F9C1F53F25A0032FA3F /* NotifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifierUITests.swift; sourceTree = "<group>"; };
 		613B0F9E1F53F25A0032FA3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		613B0FAB1F53F2760032FA3F /* AENotifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AENotifier.swift; sourceTree = "<group>"; };
+		613B0FAE1F53F2F50032FA3F /* AENotifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AENotifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +99,7 @@
 		613B0F7B1F53F25A0032FA3F /* Notifier */ = {
 			isa = PBXGroup;
 			children = (
-				613B0FAA1F53F2760032FA3F /* AENotifier */,
+				613B0FAD1F53F2F50032FA3F /* AENotifier */,
 				613B0F7C1F53F25A0032FA3F /* AppDelegate.swift */,
 				613B0F7E1F53F25A0032FA3F /* ViewController.swift */,
 				613B0F801F53F25A0032FA3F /* Main.storyboard */,
@@ -128,12 +128,13 @@
 			path = NotifierUITests;
 			sourceTree = "<group>";
 		};
-		613B0FAA1F53F2760032FA3F /* AENotifier */ = {
+		613B0FAD1F53F2F50032FA3F /* AENotifier */ = {
 			isa = PBXGroup;
 			children = (
-				613B0FAB1F53F2760032FA3F /* AENotifier.swift */,
+				613B0FAE1F53F2F50032FA3F /* AENotifier.swift */,
 			);
-			path = AENotifier;
+			name = AENotifier;
+			path = ../../../AENotifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +276,7 @@
 			files = (
 				613B0F7F1F53F25A0032FA3F /* ViewController.swift in Sources */,
 				613B0F7D1F53F25A0032FA3F /* AppDelegate.swift in Sources */,
-				613B0FAC1F53F2760032FA3F /* AENotifier.swift in Sources */,
+				613B0FAF1F53F2F50032FA3F /* AENotifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,6 +529,7 @@
 				613B0FA31F53F25A0032FA3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		613B0FA41F53F25A0032FA3F /* Build configuration list for PBXNativeTarget "NotifierTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +538,7 @@
 				613B0FA61F53F25A0032FA3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		613B0FA71F53F25A0032FA3F /* Build configuration list for PBXNativeTarget "NotifierUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +547,7 @@
 				613B0FA91F53F25A0032FA3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
